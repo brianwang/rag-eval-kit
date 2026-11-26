@@ -1,0 +1,3 @@
+{"question": "员工年假多少天", "expected_ids": ["hr-policy-3"]}
+{"question": "报销要走几级审批", "expected_ids": ["finance-2"]}
+{"question": "试用期可以请婚假吗", "expected_ids": ["hr-policy-7", "hr-policy-8"]}

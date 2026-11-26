@@ -1,0 +1,20 @@
+[project]
+name = "rag-eval-kit"
+version = "0.1.0"
+description = "Minimal RAG retrieval evaluation: recall@k, MRR, hit rate — no vector DB required"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[project.scripts]
+rageval = "rageval.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["rageval"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
